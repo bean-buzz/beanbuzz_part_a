@@ -43,18 +43,18 @@ This can lead to inconsistent revenue and make it tough to grow or stay sustaina
 1.  <b>Dynamic Menu</b><br>
     The app will feature a dynamic menu that can be filtered by customers based on a variety of dietary requirements. Cafe and Restaurant staff will also be able to toggle the availability of menu items - this ensures that customers are aware of the availability of menu items prior to ordering.
 
-        - Filter by dietary needs (vegan, gluten free)
-        - See real-time availability of menu items
+    - Filter by dietary needs (vegan, gluten free)
+    - See real-time availability of menu items
 
 2.  <b>Order Placement</b><br>
     The app will feature an ordering system to allow users to select menu items, leave instructions / special requests and pay for their menu items.
 
-        - Add items to cart, specify special requests and complete payment via Stripe
+    - Add items to cart, specify special requests and complete payment via Stripe
 
 3.  <b>Order Tracking</b><br>
     The app will feature an order tracking system to allow customers to view the status of their order.
 
-        - Track the progress of orders from placement to completion
+    - Track the progress of orders from placement to completion
 
 4.  <b>User Account Management</b><br>
     Customers can create a personal account to save their preferences, past orders, and contact details for faster future transactions.
@@ -63,23 +63,23 @@ This can lead to inconsistent revenue and make it tough to grow or stay sustaina
 5.  <b>User Loyalty Program</b><br>
     Customers are given incentive to use the app and visit the cafe /restaurant in order to earn discounts after spending a certain amount of money or purchasing a certain amount of products.
 
-        - Customers are rewarded for their loyalty through a points-based system, where they earn points for every purchase
-        - The program offers transparency by allowing users to track their progress toward rewards directly within the app.
+    - Customers are rewarded for their loyalty through a points-based system, where they earn points for every purchase
+    - The program offers transparency by allowing users to track their progress toward rewards directly within the app.
 
 ### For Businesses
 
 1.  <b>Admin Dashboard</b><br>
     Business owners will be able to create, update and delete menu items using a dashboard in the app.
 
-        - Real-time updates to menu availability ensure customers see only what is currently available, minimising order issues related to unavailable items.
-        - The dashboard includes analytics on menu performance, helping businesses identify bestsellers and underperforming items.
+    - Real-time updates to menu availability ensure customers see only what is currently available, minimising order issues related to unavailable items.
+    - The dashboard includes analytics on menu performance, helping businesses identify bestsellers and underperforming items.
 
 2.  <b>Order Dashboard</b><br>
     Kitchen staff and business owners will be able to view past and present orders. Furthermore, they’ll be able to confirm or cancel present orders.
 
-        - Kitchen staff and business owners can view all current, pending, and completed orders in one centralised system.
-        - Orders are categorised by status (“In Progress,” “Completed”) to streamline kitchen operations and improve workflow efficiency.
-        - Businesses can confirm or cancel orders directly through the dashboard, providing flexibility to address errors or handle special circumstances.
+    - Kitchen staff and business owners can view all current, pending, and completed orders in one centralised system.
+    - Orders are categorised by status (“In Progress,” “Completed”) to streamline kitchen operations and improve workflow efficiency.
+    - Businesses can confirm or cancel orders directly through the dashboard, providing flexibility to address errors or handle special circumstances.
 
 ## Target Audience
 
