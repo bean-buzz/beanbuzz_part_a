@@ -98,8 +98,10 @@ The target audience for this application are restaurant / cafe owners, their sta
 
 #### Secondary Users:
 
-1. <b>Customers</b>
-   - Enjoy a streamlined ordering experience with real-time updates and loyalty rewards
+1. <b>Authenticated Customers</b>
+   - Benefit from a personalised ordering experience with real-time updates, access to loyalty rewards, and saved preferences for quicker checkouts.
+2. <b>Unauthenticated Customers</b>
+   -Enjoy a simple and efficient ordering process with real-time updates, without needing to create an account.
 
 ## Tech stack
 
@@ -153,6 +155,7 @@ The application implements a variety of technologies associated with the MERN st
 # R4 - User Stories
 
 ### Overview
+
 A user story is a simple way to explain a feature or function from the perspective of the person using it. It answers three key questions: <b><i>who’s</b></i> using it, <b><i>what</b></i> they want to do, and <b><i>why</b></i> it’s important to them. This helps ensure that features are designed with real users in mind and create a great experience.
 
 - Who: Defines the type of user, like a customer, admin, or kitchen staff.
