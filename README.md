@@ -329,3 +329,5 @@ Our BeanBuzz app supports three types of users:
 7. As a business owner/admin, I want to change the status of orders (e.g., pending, completed, canceled) to manage and organize operations effectively.
 8. As kitchen staff, I want to view current orders along with any customer instructions so I can prepare the orders accurately.
 9. As kitchen staff, I want to mark orders as pending, completed, or canceled so I can communicate their status to the customers.
+
+# R5 - Wireframes for multiple standard screen sizes, created using Figma.
