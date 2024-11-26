@@ -101,7 +101,7 @@ The target audience for this application are restaurant / cafe owners, their sta
 1. <b>Authenticated Customers</b>
    - Benefit from a personalised ordering experience with real-time updates, access to loyalty rewards, and saved preferences for quicker checkouts.
 2. <b>Unauthenticated Customers</b>
-   -Enjoy a simple and efficient ordering process with real-time updates, without needing to create an account.
+   - Enjoy a simple and efficient ordering process with real-time updates, without needing to create an account.
 
 ## Tech stack
 
