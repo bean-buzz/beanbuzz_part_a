@@ -150,134 +150,179 @@ The application implements a variety of technologies associated with the MERN st
 3. <b>Environment Variables</b><br>
    - Storing sensitive information such as API keys and database URIs securely.
 
-
 # R4 - User Stories
-Our user stories have been refined throughout the creation of this app. The following are the multiple versions:
+
+### Overview
+A user story is a simple way to explain a feature or function from the perspective of the person using it. It answers three key questions: <b><i>who’s</b></i> using it, <b><i>what</b></i> they want to do, and <b><i>why</b></i> it’s important to them. This helps ensure that features are designed with real users in mind and create a great experience.
+
+- Who: Defines the type of user, like a customer, admin, or kitchen staff.
+- What: Describes the action the user wants to take.
+- Why: Explains the purpose or benefit behind the action, showing why it matters.
+
+Our user stories have been refined throughout the creation of this app.<br><br>
+The following are the multiple versions:
+
 ## User Stories - Version 1
 
-### Dynamic Digital Menu 
+### Dynamic Digital Menu
 
-- As a customer, I want to view a digital menu so I can see all food items available.
+#### Customer
 
-- As a customer, I want to filter food items based on my dietary requirement (e.g, vegan or gluten free) so I can order food that is suitable for me.
+1. As a customer, I want to view a digital menu so I can see all food items available.
+
+2. As a customer, I want to filter food items based on my dietary requirement (e.g, vegan or gluten free) so I can order food that is suitable for me.
 
 ### Online Ordering & Payment
 
-- As a customer, I want to be able to pay for my food online while heading to the cafe / restaurant so it will be ready to pick up when I get there.
+#### Customer
 
-- As a customer, I want to be able to pay for my food online while dining in because it will save me time.
+1. As a customer, I want to be able to pay for my food online while heading to the cafe / restaurant so it will be ready to pick up when I get there.
 
+2. As a customer, I want to be able to pay for my food online while dining in because it will save me time.
 
 ### Food Item Dashboard
 
-- As a business owner, I want to be able to view current food items so I know what’s being offered to customers.
+#### Business Owner
 
-- As a business owner, I want to be able to update food items and keep them up-to-date if there are any changes that need to be made (like changes to price).
+1. As a business owner, I want to be able to view current food items so I know what’s being offered to customers.
 
-- As a business owner, I want to be able to create food items so our business can periodically offer customers something new and interesting to try.
+2. As a business owner, I want to be able to update food items and keep them up-to-date if there are any changes that need to be made (like changes to price).
 
-- As a business owner, I want to be able to toggle the availability of food items on the digital menu to reflect what we currently have in stock, prevent customers from being disappointed and save our staff time in having to explain that certain items are not currently available. 
+3. As a business owner, I want to be able to create food items so our business can periodically offer customers something new and interesting to try.
+
+4. As a business owner, I want to be able to toggle the availability of food items on the digital menu to reflect what we currently have in stock, prevent customers from being disappointed and save our staff time in having to explain that certain items are not currently available.
 
 ### Order Dashboard
 
-- As a customer, I want to be able to track the current state of my order so I know when it’s ready for pickup.
+#### Customer
 
-- As a business owner, I want to be able to track all orders (past and present) to keep up-to-date business records.
+1. As a customer, I want to be able to track the current state of my order so I know when it’s ready for pickup.
 
-- As kitchen staff, I want to be able to view current orders along with the customer instructions associated with them, mark them as complete or cancel them. 
+#### Business Owner
+
+1. As a business owner, I want to be able to track all orders (past and present) to keep up-to-date business records.
+
+#### Kitchen Staff
+
+1. As kitchen staff, I want to be able to view current orders along with the customer instructions associated with them, mark them as complete or cancel them.
 
 ### User Registration, Login and Loyalty Program
 
-- As a customer, I want to be able to register an account and login so I can keep track of my orders and know when they’re ready to pick up. 
+#### Customer
 
-- As a customer, I want to be able to accrue points so I can use them to order free food items.
+1. As a customer, I want to be able to register an account and login so I can keep track of my orders and know when they’re ready to pick up.
 
-- As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly. 
+2. As a customer, I want to be able to accrue points so I can use them to order free food items.
+
+#### Business Owner
+
+1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 2
 
-### Dynamic Digital Menu 
+### Dynamic Digital Menu
 
-- As a user, I want to view a digital menu so I can see all current food items. When doing so, i also want to know which food items are currently sold out so i do not order them.
+#### User
 
-- As a customer, I want to filter food items based on my dietary requirement (e.g, vegan, gluten free, vegetarian, etc.) so I can order food that is suitable for me.
+1. As a user, I want to view a digital menu so I can see all current food items. When doing so, i also want to know which food items are currently sold out so i do not order them.
 
+#### Customer
+
+1. As a customer, I want to filter food items based on my dietary requirement (e.g, vegan, gluten free, vegetarian, etc.) so I can order food that is suitable for me.
 
 ### Ordering
 
-- As a customer, I want to be able to add food items to a cart so I can continue to browse the menu.
+#### Customer
 
-- As a customer, I want to be able to specify the quantity of food items I want to buy so i can order on behalf of everyone on my table. 
+1. As a customer, I want to be able to add food items to a cart so I can continue to browse the menu.
 
-- As a customer, i want to be able to remove food items from my cart if I change my mind. 
+2. As a customer, I want to be able to specify the quantity of food items I want to buy so i can order on behalf of everyone on my table.
+
+3. As a customer, i want to be able to remove food items from my cart if I change my mind.
 
 ### Payment
 
-- As a customer, I want to be able to pay for my food online while heading to the cafe / restaurant so it will be ready to pick up when I get there.
+#### Customer
 
-- As a customer, I want to be able to pay for my food online while dining-in because it will save me time in going to the counter and having to talk to staff. 
+1. As a customer, I want to be able to pay for my food online while heading to the cafe / restaurant so it will be ready to pick up when I get there.
 
-- As a customer, I want to be able to pay for my food in person with cash after I have placed my order online. 
+2. As a customer, I want to be able to pay for my food online while dining-in because it will save me time in going to the counter and having to talk to staff.
+
+3. As a customer, I want to be able to pay for my food in person with cash after I have placed my order online.
 
 ### Food-Item Dashboard
 
-- As a business owner, I want to be able to view current food items so I know what’s being offered to customers.
+#### Business Owner
 
-- As a business owner, I want to be able to update food items and keep them up-to-date if there are any changes that need to be made (like changes to price).
+1. As a business owner, I want to be able to view current food items so I know what’s being offered to customers.
 
-- As a business owner, I want to be able to create food items so our business can periodically offer customers something new and interesting dishes to try.
+2. As a business owner, I want to be able to update food items and keep them up-to-date if there are any changes that need to be made (like changes to price).
 
-- As a business owner, I want to be able to toggle the availability of food items on the digital menu to reflect what we currently have in stock, prevent customers from being disappointed and save our staff time in having to explain that certain items are sold out. 
+3. As a business owner, I want to be able to create food items so our business can periodically offer customers something new and interesting dishes to try.
+
+4. As a business owner, I want to be able to toggle the availability of food items on the digital menu to reflect what we currently have in stock, prevent customers from being disappointed and save our staff time in having to explain that certain items are sold out.
 
 ### Order Dashboard
 
-- As a customer, I want to be able to track the current state of my order so I know when it’s ready for pickup.
+#### Customer
 
-- As a business owner, I want to be able to track all orders (past and present) to keep up-to-date business records.
+1. As a customer, I want to be able to track the current state of my order so I know when it’s ready for pickup.
 
-- As kitchen staff, I want to be able to view current orders along with the customer instructions associated with them, mark them as complete or cancel them. 
+#### Business Owner
+
+1. As a business owner, I want to be able to track all orders (past and present) to keep up-to-date business records.
+
+#### Kitchen Staff
+
+1. As kitchen staff, I want to be able to view current orders along with the customer instructions associated with them, mark them as complete or cancel them.
 
 ### User Registration, Login and Loyalty Program
 
-- As a customer, I want to be able to register an account and login so I can keep track of my orders and know when they’re ready to pick up. 
+#### Customer
 
-- As a customer, I want to be able to accrue points so I can use them to order free food items.
+1. As a customer, I want to be able to register an account and login so I can keep track of my orders and know when they’re ready to pick up.
 
-- As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly. 
+2. As a customer, I want to be able to accrue points so I can use them to order free food items.
 
-## User Stories - Version 3 
+#### Business Owner
+
+1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
+
+## User Stories - Version 3
 
 Our BeanBuzz app supports three types of users:
-1. Unauthenticated user (a user that is not logged in)
-2. Authenticated user (a user that has a registered account and is logged in) 
-3. Admin (owner) or Staff User
 
-### Unauthenticated User 
-- As an unauthenticated user, I want to access the application and view menu items without needing to log in, so I can explore the options available.
-- As an unauthenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can find suitable food items easily.
-- As an unauthenticated user, I want to order food online without logging in, but I understand that I won't have access to order status updates or the loyalty program.
-- As an unauthenticated user, i want to be able to pay for my food online 
-- As an unauthenticated user, i want to be able to register an account so i can login to track my orders and participate in the loyalty program
-- As an unauthenticated user, i want to be able to pay for my order online to save time.
-- As an unauthenticated user, i want to be able to pay for my order in person so i can use cash.
+- Unauthenticated user (a user that is not logged in)
+- Authenticated user (a user that has a registered account and is logged in)
+- Admin (owner) or Staff User
+
+### Unauthenticated User
+
+1. As an unauthenticated user, I want to access the application and view menu items without needing to log in, so I can explore the options available.
+2. As an unauthenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can find suitable food items easily.
+3. As an unauthenticated user, I want to order food online without logging in, but I understand that I won't have access to order status updates or the loyalty program.
+4. As an unauthenticated user, i want to be able to pay for my food online
+5. As an unauthenticated user, i want to be able to register an account so i can login to track my orders and participate in the loyalty program
+6. As an unauthenticated user, i want to be able to pay for my order online to save time.
+7. As an unauthenticated user, i want to be able to pay for my order in person so i can use cash.
 
 ### Authenticated User
 
-- As a customer, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can order food online that suits my preferences.
-- As a customer, I want to pay for my food online while heading to the cafe or restaurant so I can save time during pick-up or delivery.
-- As a customer, I want to track the status of my orders (e.g., pending, preparing, completed) so I can stay updated.
-- As a customer, I want to access a loyalty program so I can earn points with each order and redeem them for free food items.
-- As a customer, i want to be able to pay for my order online to save time.
-- As a customer, i want to be able to pay for my order in person so i can use cash.
+1. As a customer, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can order food online that suits my preferences.
+2. As a customer, I want to pay for my food online while heading to the cafe or restaurant so I can save time during pick-up or delivery.
+3. As a customer, I want to track the status of my orders (e.g., pending, preparing, completed) so I can stay updated.
+4. As a customer, I want to access a loyalty program so I can earn points with each order and redeem them for free food items.
+5. As a customer, i want to be able to pay for my order online to save time.
+6. As a customer, i want to be able to pay for my order in person so i can use cash.
 
 ### Admin or Staff User
 
-- As an  owner/admin, I want to log in to the app so I can manage the restaurant’s menu, orders, payments and overall operations.
-- As a business owner/admin, I want to view the current menu items so I know what is being offered to customers.
-- As a business owner/admin, I want to update menu items (e.g., prices, image or descriptions) so the menu remains accurate and up-to-date.
-- As a business owner/admin, I want to create new menu items so our restaurant can periodically offer new dishes to customers.
-- As a business owner/admin, I want to toggle the availability of menu items on the digital menu so I can reflect real-time stock levels, preventing customer disappointment and saving staff time.
-- As a business owner/admin, I want to track all orders (past and present) so I can maintain up-to-date business records and analyze order trends.
-- As a business owner/admin, I want to change the status of orders (e.g., pending, completed, canceled) to manage and organize operations effectively.
-- As kitchen staff, I want to view current orders along with any customer instructions so I can prepare the orders accurately.
-- As kitchen staff, I want to mark orders as pending, completed, or canceled so I can communicate their status to the customers.
+1. As an owner/admin, I want to log in to the app so I can manage the restaurant’s menu, orders, payments and overall operations.
+2. As a business owner/admin, I want to view the current menu items so I know what is being offered to customers.
+3. As a business owner/admin, I want to update menu items (e.g., prices, image or descriptions) so the menu remains accurate and up-to-date.
+4. As a business owner/admin, I want to create new menu items so our restaurant can periodically offer new dishes to customers.
+5. As a business owner/admin, I want to toggle the availability of menu items on the digital menu so I can reflect real-time stock levels, preventing customer disappointment and saving staff time.
+6. As a business owner/admin, I want to track all orders (past and present) so I can maintain up-to-date business records and analyze order trends.
+7. As a business owner/admin, I want to change the status of orders (e.g., pending, completed, canceled) to manage and organize operations effectively.
+8. As kitchen staff, I want to view current orders along with any customer instructions so I can prepare the orders accurately.
+9. As kitchen staff, I want to mark orders as pending, completed, or canceled so I can communicate their status to the customers.
