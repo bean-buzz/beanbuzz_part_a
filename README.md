@@ -152,6 +152,113 @@ The application implements a variety of technologies associated with the MERN st
 3. <b>Environment Variables</b><br>
    - Storing sensitive information such as API keys and database URIs securely.
 
+# R2 - Dataflow Diagram
+
+### Overview
+
+A Dataflow Diagram is a simple way to show how data moves through a system. It highlights the processes, data storage areas, and how external entities interact with the system. It's a handy tool for designing software, analysing systems, and mapping out processes.
+
+1. <b>External Entities:</b> Represent users (basic user, account user, admin, staff).
+2. <b>Processes:</b> Represent actions performed within the system (login, update user profile, menu management, order management).
+3. <b>Data Stores:</b> Represent databases for menus, orders, tables, and users.
+4. <b>Data Flow:</b> Depicted with arrows showing data input, processing, and output.
+
+## Key Processes
+
+### User Registration and Login
+
+1. External Entity
+   - User
+2. Processes
+   - <b>Register:</b> A user provides registration details, which are stored in the `User Database`
+   - <b>Login:</b> Users input credentials to verify their identity. Verified users are categorised as:
+     - <b>Basic User:</b> Can access limited functionalities.
+     - <b>Account User:</b> Can access full account features (profile updates).
+     - <b>Admin/Staff:</b> Get access to management controls for menus, orders, and tables.
+   - <b>User Authentication:</b> Data flows from the User Database to confirm credentials.
+3. Data Store:
+   - User Database (Stores user details like name, email, and contact info).
+
+### Menu Management
+
+1. External Entity:
+   - Admin
+   - Staff
+2. Processes:
+   - <b>Read Menu:</b> Retrieve menu details from the `Menu Database`.
+   - <b>Get Menu Items by Category:</b> Allows filtering based on categories.
+   - <b>Add/Edit/Delete Menu Item:</b>
+     - <b>Add:</b> New menu items are created in the database.
+     - <b>Edit:</b> Updates existing menu details.
+     - <b>Delete:</b> Removes items from the database.
+3. Data Store: Menu Database (Stores menu items and associated details).
+
+Menu data is also shared with `Order Management` for placing orders.
+
+### Order Management
+
+1. External Entity:
+   - Basic Users
+   - Account Users
+   - Admin
+   - Staff
+2. Processes:
+   - <b>Create an Order:</b> Users place orders, with details recorded in the `Orders Database`.
+   - <b>Get Order by ID:</b> Retrieve specific order details.
+   - <b>Update Order:</b> Modify order details (status).
+   - <b>Submit Order:</b> Finalises the order for processing.
+   - <b>Delete Order:</b> Cancel or remove orders.
+3. Data Store: Orders Database (Stores order details such as items, quantities, user IDs, and status).
+
+`Admins` and `Staff` can view order summaries for reporting purposes (daily totals, item counts).
+
+### Table Management
+
+1. External Entity:
+   - Admin
+   - Staff
+2. Processes:
+   - <b>Get All Tables:</b> Retrieve table details from the `Table Database`.
+   - <b>Add/Edit/Delete Table:</b>
+     - <b>Add:</b> Adds new table entries.
+     - <b>Edit:</b> Updates existing table information (availability).
+     - <b>Delete:</b> Removes tables from the system.
+3. Data Store: Table Database (Tracks table numbers, availability, and statuses).
+
+Table data is synchronised with `Order Management` for assigning orders to tables.
+
+### User Profile Management
+
+1. External Entity:
+   - Account Users
+2. Processes:
+   - <b>Read User Profile:</b> Users retrieve their profile information from the `User Database`.
+   - <b>Update User Profile:</b> Allows users to edit their account information.
+3. Data Store: User Database
+
+### System Roles and Permissions
+
+1. Basic Users: Limited access (view menus, place orders).
+2. Account Users: Extended access (profile updates).
+3. Admin/Staff:
+   - Manage menus, orders, and tables.
+   - Access data summaries (order statistics).
+
+<br>
+<details>
+<summary>Click here - Dataflow Diagram</summary>
+<p align="center"><i>Revision 01</i></p>
+<p align="center">
+<img src="docs/dataflow_diagram/DataflowDiagram-Revision01.png">
+</p>
+<p align="center"><i>Revision 02</i></p>
+<p align="center">
+<img src="docs/dataflow_diagram/DataflowDiagram-Revision02.png">
+</p>
+
+</details>
+<br>
+
 # R4 - User Stories
 
 ### Overview
