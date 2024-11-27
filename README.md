@@ -330,4 +330,201 @@ Our BeanBuzz app supports three types of users:
 8. As kitchen staff, I want to view current orders along with any customer instructions so I can prepare the orders accurately.
 9. As kitchen staff, I want to mark orders as pending, completed, or canceled so I can communicate their status to the customers.
 
-# R5 - Wireframes for multiple standard screen sizes, created using Figma.
+# R5 - Wireframes for multiple standard screen sizes.
+
+[Figma Wireframe Link](https://www.figma.com/design/opDtX5ia73tgRQuhVsJ3fT/Been-Buzz-Cafe-Wireframes?node-id=0-1&t=TIgoX4YxbvIukJd8-1)
+
+### Overview
+
+Designed high-fidelity wireframes for multiple standard screen sizes using Figma, the industry-standard design tool. These wireframes ensure a responsive and user-friendly layout across devices such as desktops, tablets, and mobile screens. That hepls reflecting the app's final design and functionality. Figma's collaborative features allowed our team to iterate and refine the designs efficiently, aligning with best practices for modern UI/UX development.
+
+### Colour Selection
+
+For the "BeanBuzz" app, we used the "Coolors" color palette generator to create a darker coffee-inspired color scheme for the wireframes. The rich, earthy tones of coffee beans capture the warmth and elegance of a cozy café atmosphere. This palette reflects the dining experience while creating a visually appealing and immersive interface, enhancing the user’s connection to the app.
+
+- [Colour Theme 1](https://coolors.co/000000-251b0f-967c70-e8d4c4-f1f5f2)
+- [Colour Theme 2](https://coolors.co/000000-241b17-e68541-f6f1ef-ffffff)
+- [Colour Theme 3](https://coolors.co/000000-202738-c46c48-e7ddda-efefef)
+
+<details>
+<summary>Click here - Colour Themes Images</summary>
+<p align="center"><i>Theme 01</i></p>
+<p align="center">
+<img src="docs/wireframes/ColorPalette-1.png">
+</p>
+<p align="center"><i>Theme 02</i></p>
+<p align="center">
+<img src="docs/wireframes/ColorPalette-2.png">
+</p>
+<p align="center"><i>Theme 03</i></p>
+<p align="center">
+<img src="docs/wireframes/ColorPalette-3.png">
+</p>
+</details>
+
+### Font Selection
+
+When selecting fonts for our app, readability and modern appeal were top priorities. The chosen fonts create a clean, approachable aesthetic, making them perfectly suited for menu displays and user interfaces. These fonts work well together to create a consistent and welcoming design for the app. In the end, we chose:
+
+- Open Sans
+- Lato
+
+### Wireframe - Mobile Version
+
+We initiated the design process for the app by focusing on the mobile version. Using Figma, we chose the "iPhone 13 mini" view to ensure accurate design alignment.
+Then devised the design for the mobile version as follows.
+
+<details>
+<summary>Click here - Home Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/HomePage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Our Menu Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/MenuPage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Contact Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/ContactPage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/AdminDashboard-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Menu Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-MenuPanel-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Order Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-OrdersPanel-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Payment Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-PaymentPanel-3.png">
+</p>
+</details>
+
+### Wireframe - Tab Version
+
+For the tablet view in Figma, used the "Android Expanded" frame to ensure the design adapts smoothly to larger screens. This choice allows for an optimized, responsive layout across tablet devices.
+
+<details>
+<summary>Click here - Home Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/HomePage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Our Menu Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/MenuPage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Contact Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/ContactPage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/AdminDashboard-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Menu Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-MenuPanel-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Order Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-OrdersPanel-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Payment Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-PaymentPanel-2.png">
+</p>
+</details>
+
+### Wireframe - Desktop Version
+
+In Figma, we used the desktop frame for the desktop view to design an interface customized for larger screens. This approach ensures a smooth, responsive experience for users across desktop devices.
+
+<details>
+<summary>Click here - Home Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/HomePage-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Our Menu Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/MenuPage-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Contact Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/ContactPage-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/AdminDashboard-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Menu Panel Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-MenuPanel-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Order Panel Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-OrdersPanel-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Payment Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-PaymentsPanel-1.png">
+</p>
+</details>
