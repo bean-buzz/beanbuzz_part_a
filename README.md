@@ -259,6 +259,17 @@ Table data is synchronised with `Order Management` for assigning orders to table
 </details>
 <br>
 
+
+# R3 - Application Architecture Diagram
+
+### Overview
+Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. For payment processing, the app leverages the Stripe API, which accesses an external server.
+
+<img src="docs/architecture_diagram/ApplicationArchitectureDiagram.drawio.png">
+
+
+
+
 # R4 - User Stories
 
 ### Overview
