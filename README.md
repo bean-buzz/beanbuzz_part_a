@@ -635,3 +635,165 @@ In Figma, we used the desktop frame for the desktop view to design an interface 
 <img src="docs/wireframes/Admin-PaymentsPanel-1.png">
 </p>
 </details>
+<br>
+
+# R6 - Task Allocation and Tracking
+
+### Overview
+
+As a team, we used [Atlassian's Trello](https://trello.com/home), a visual project management tool, to keep our tasks organised and track their progress at every stage. The lists and their descriptions are designed with an Agile approach in mind, making it easy to manage tasks and stay updated on progress efficiently.
+
+### Task Allocation
+
+1. <b>Task Creation</b>
+
+   - Tasks are created as individual Trello cards, representing a specific task or deliverable that needs to be addressed.
+
+   - <b>Each card includes</b>
+     - A detailed description of the task or goal.
+     - Relevant attachments (documentation or links).
+     - Checklists for subtasks required for completion.
+     - Assigned team members.
+     - Deadlines for time-sensitive tasks.
+
+2. <b>Details and Deadlines</b>
+   - Each card includes a detailed description, relevant attachments and checklists. This keeps us organised and ensures we have all necessary information to complete the task.
+
+### Tracking Progress
+
+1. Requirements</b>
+
+   - Where all the initial project requirements and goals go. This list sets the foundation, outlining what the project needs and its constraints.
+
+2. <b>API Routes</b>
+
+   - Tracks the progress of backend API endpoints.
+
+3. <b>README.md</b>
+
+   - Keeps tabs on updates needed for the project documentation, making sure everything stays clear and up to date.
+
+4. <b>Testing</b>
+
+   - Contains tasks for creating and running tests to ensure everything works as expected.
+
+5. <b>ReactApp</b>
+
+   - Focuses on frontend development for the React app; designing, updating, and improving the user interface and experience.
+
+6. <b>Todo</b>
+
+   - The main backlog of tasks that are ready and prioritised to be worked on next.
+
+7. <b>Doing</b>
+
+   - Tracks tasks currently in progress to keep focus on what’s actively being worked on.
+
+8. <b>Ongoing</b>
+
+   - For tasks that need ongoing attention, like long term tasks or iterative work.
+
+9. <b>Review</b>
+
+   - Holds tasks waiting for review, like code quality checks, or final approvals.
+
+10. <b>Refine</b>
+
+    - Captures tasks that need more work after feedback or testing, ensuring continuous improvement.
+
+11. <b>Done</b>
+
+    - A record of completed tasks, showing all accomplishments and progress made.
+
+12. <b>Stuck</b>
+
+    - Flags tasks that are blocked. Whether due to unclear requirements, missing dependencies, or other issues, so they can be addressed during team discussions.
+
+### Collaboration
+
+Effective communication and regular updates are critical for managing tasks within the Trello board.
+
+- Each card serves as a central place for discussions. Team members can leave comments, clarify requirements, ask questions, or share updates directly on the card.
+
+1. <b>File Sharing</b>
+
+   - Relevant files like mockups, code snippets, or documentation can be attached to cards, so everything we need is easy to find and in one place.
+
+2. <b>Notifications</b>
+
+   - Trello's notification system helps everyone stay on top of deadlines, updates, and assigned tasks, so nothing slips through the cracks.
+
+### Review
+
+1. <b>Regular Task Reviews</b>
+
+   - Tasks are reviewed frequently to make sure they align with project goals and to catch any potential issues early. These reviews help keep everyone accountable and allow for quick adjustments to the workflow.
+
+2. <b>Board Maintenance</b>
+
+   - The board is regularly updated by archiving finished tasks, reorganising lists, and keeping everything clean and easy to use.
+
+<details>
+<summary>Trello Planning: Screenshots</summary>
+<p align="center"><i>First Week</i></p>
+<p align="center">
+<img src="docs/trello/board/Screenshot 01.png">
+<img src="docs/trello/board/Screenshot 03.png">
+<img src="docs/trello/board/Screenshot 04.png">
+<img src="docs/trello/board/Screenshot 05.png">
+<img src="docs/trello/board/Screenshot 06.png">
+<img src="docs/trello/board/Screenshot 07.png">
+<img src="docs/trello/board/Screenshot 08.png">
+<img src="docs/trello/board/Screenshot 09.png">
+</p>
+
+<p align="center"><i>Second Week</i></p>
+<p align="center">
+<img src="docs/trello/board/Screenshot 10.png">
+<img src="docs/trello/board/Screenshot 12.png">
+</p>
+
+<p align="center"><i>Third Week</i></p>
+<p align="center">
+<img src="docs/trello/board/Screenshot 13.png">
+<img src="docs/trello/board/Screenshot 14.png">
+</p>
+</details>
+
+<details>
+<summary>Card Planning: Screenshots</summary>
+<p align="center"><i>R1: Description of Website</i></p>
+<p align="center">
+<img src="docs/trello/cards/Card Screenshot 01.png">
+<img src="docs/trello/cards/Card Screenshot 01-1.png">
+</p>
+
+<p align="center"><i>R2: Dataflow Diagram</i></p>
+<p align="center">
+<img src="docs/trello/cards/Card Screenshot 02.png">
+</p>
+
+<p align="center"><i>R3: Application Architecture Diagram</i></p>
+<p align="center">
+<img src="docs/trello/cards/Card Screenshot 03.png">
+<img src="docs/trello/cards/Card Screenshot 03-1.png">
+</p>
+
+<p align="center"><i>R4: User Stories</i></p>
+<p align="center">
+<img src="docs/trello/cards/Card Screenshot 04.png">
+<img src="docs/trello/cards/Card Screenshot 04-1.png">
+</p>
+
+<p align="center"><i>R5: Wireframes</i></p>
+<p align="center">
+<img src="docs/trello/cards/Card Screenshot 05.png">
+<img src="docs/trello/cards/Card Screenshot 05-1.png">
+</p>
+
+<p align="center"><i>R6: Task Planning</i></p>
+<p align="center">
+<img src="docs/trello/cards/Card Screenshot 06.png">
+</p>
+</details>
+<br>
