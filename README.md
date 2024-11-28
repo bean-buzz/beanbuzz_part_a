@@ -699,15 +699,15 @@ As a team, we used [Atlassian's Trello](https://trello.com/home), a visual proje
 
 10. <b>Refine</b>
 
-- Captures tasks that need more work after feedback or testing, ensuring continuous improvement.
+    - Captures tasks that need more work after feedback or testing, ensuring continuous improvement.
 
 11. <b>Done</b>
 
-- A record of completed tasks, showing all accomplishments and progress made.
+    - A record of completed tasks, showing all accomplishments and progress made.
 
 12. <b>Stuck</b>
 
-- Flags tasks that are blocked. Whether due to unclear requirements, missing dependencies, or other issues, so they can be addressed during team discussions.
+    - Flags tasks that are blocked. Whether due to unclear requirements, missing dependencies, or other issues, so they can be addressed during team discussions.
 
 ### Collaboration
 
@@ -720,6 +720,7 @@ Effective communication and regular updates are critical for managing tasks with
    - Relevant files like mockups, code snippets, or documentation can be attached to cards, so everything we need is easy to find and in one place.
 
 2. <b>Notifications</b>
+
    - Trello's notification system helps everyone stay on top of deadlines, updates, and assigned tasks, so nothing slips through the cracks.
 
 ### Review
@@ -729,6 +730,7 @@ Effective communication and regular updates are critical for managing tasks with
    - Tasks are reviewed frequently to make sure they align with project goals and to catch any potential issues early. These reviews help keep everyone accountable and allow for quick adjustments to the workflow.
 
 2. <b>Board Maintenance</b>
+
    - The board is regularly updated by archiving finished tasks, reorganising lists, and keeping everything clean and easy to use.
 
 <details>
