@@ -269,9 +269,27 @@ Table data is synchronised with `Order Management` for assigning orders to table
 
 ### Overview
 
-Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. For payment processing, the app leverages the Stripe API, which accesses an external server.
+Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. External APIs are utilised for payment processing and map rendering. The following is a more detailed breakdown of the application architecture:
 
-<img src="docs/architecture_diagram/ApplicationArchitectureDiagram.drawio.png">
+1. The React.js app sends CRUD requests to the Express.js Server. 
+
+2. The Express.js Server processes these requests using the authentication, model and payment controllers. 
+
+3. The server queries the MongoDB database or creates new documents and adds them to the database.
+
+4. The database sends documents back to the server.
+
+5. The server sends a response containing data back to the front-end.
+
+6. If the payment controller is utilised, it sends a payment object to the STRIPE payment API server and receives a success or failure status as a response. 
+
+7. If the Gmp-map component is rendered, it makes a GET request to the Google Maps API server and receives a response with map data.
+
+<details>
+<summary>Click here - Application Architecture Diagram</summary>
+<img src="docs/architecture_diagram/ApplicationArchitectureDiagram.drawio-revised.png">
+</details>
+
 
 # R4 - User Stories
 
