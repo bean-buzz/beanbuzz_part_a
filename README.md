@@ -249,13 +249,27 @@ Table data is synchronised with `Order Management` for assigning orders to table
 <p align="center">
 <img src="docs/dataflow_diagram/DataflowDiagram-Revision01.png">
 </p>
-<p align="center"><i>Revision 02</i></p>
+
+<p align="center"><i>Revision 02 - Added tables and ordering databases</i></p>
 <p align="center">
 <img src="docs/dataflow_diagram/DataflowDiagram-Revision02.png">
 </p>
 
+<p align="center"><i>Revision 03 - Added database structures + annotation</i></p>
+<p align="center">
+<img src="docs/dataflow_diagram/DataflowDiagram-Revision03.png">
+</p>
+
 </details>
 <br>
+
+# R3 - Application Architecture Diagram
+
+### Overview
+
+Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. For payment processing, the app leverages the Stripe API, which accesses an external server.
+
+<img src="docs/architecture_diagram/ApplicationArchitectureDiagram.drawio.png">
 
 # R4 - User Stories
 
