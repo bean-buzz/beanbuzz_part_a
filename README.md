@@ -271,9 +271,9 @@ Table data is synchronised with `Order Management` for assigning orders to table
 
 Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. External APIs are utilised for payment processing and map rendering. The following is a more detailed breakdown of the application architecture:
 
-1. The React.js app sends CRUD requests to the Express.js Server. 
+1. The React.js app sends CRUD requests to the Express.js Server.
 
-2. The Express.js Server processes these requests using the authentication, model and payment controllers. 
+2. The Express.js Server processes these requests using the authentication, model and payment controllers.
 
 3. The server queries the MongoDB database or creates new documents and adds them to the database.
 
@@ -281,7 +281,7 @@ Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js
 
 5. The server sends a response containing data back to the front-end.
 
-6. If the payment controller is utilised, it sends a payment object to the STRIPE payment API server and receives a success or failure status as a response. 
+6. If the payment controller is utilised, it sends a payment object to the STRIPE payment API server and receives a success or failure status as a response.
 
 7. If the Gmp-map component is rendered, it makes a GET request to the Google Maps API server and receives a response with map data.
 
@@ -289,7 +289,6 @@ Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js
 <summary>Click here - Application Architecture Diagram</summary>
 <img src="docs/architecture_diagram/ApplicationArchitectureDiagram.drawio-revised.png">
 </details>
-
 
 # R4 - User Stories
 
@@ -361,6 +360,7 @@ The following are the multiple versions:
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 2
+
 _Note: version 2 adds expands on user actions and introduces new actions including, but not limited to, removing items from the cart, specifying order quantities, and viewing food items that are sold out._
 
 ### Dynamic Digital Menu
@@ -432,6 +432,7 @@ _Note: version 2 adds expands on user actions and introduces new actions includi
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 3
+
 _Note: In response to the feedback received from the group presentations, version 3 introduces more fleshed out sample personas to the user stories._
 
 Our app supports 3 types of users:
@@ -444,12 +445,11 @@ James is a tourist from England who is visiting Sydney for 2 days. He wants to g
 
 Lisa is a local living in Sydney who visits Bean Buzz for a cup of coffee and breakfast every week. Because she visits the cafe frequently, she has registered an account to participate in the loyalty program and receive discounts. Sometimes, when she is in a rush, she needs to make an order online and pay for it prior to arriving at the cafe.
 
-### 3.  Persona - Owner, admin or staff user
+### 3. Persona - Owner, admin or staff user
 
-Priya is the owner / admin of Bean Buzz. Every few months, she likes to update her menu item to offer desserts that are trendy. Because certain food items are in high demand and sell out early, Priya will have to toggle certain food items as unavailable. At the end of the day, Priya also likes to check all the orders that were made for bookkeeping purposes. 
+Priya is the owner / admin of Bean Buzz. Every few months, she likes to update her menu item to offer desserts that are trendy. Because certain food items are in high demand and sell out early, Priya will have to toggle certain food items as unavailable. At the end of the day, Priya also likes to check all the orders that were made for bookkeeping purposes.
 
 Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instructions on orders to avoid having them sent back to the kitchen. Tony also needs to cancel orders if he discovers they do not have enough ingredients to make it or confirm orders once they are completed and ready to be picked up.
-
 
 ### Unauthenticated User - User Story
 
@@ -675,9 +675,189 @@ In Figma, we used the desktop frame for the desktop view to design an interface 
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard - Payment Panel Tab View</summary>
+<summary>Click here - Admin Dashboard - Payment Panel Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-PaymentsPanel-1.png">
+</p>
+</details>
+<br>
+
+### Wireframe - Version 3
+
+Wireframe Version 3 focuses on creating a seamless user experience by incorporating key features aligned with user stories. It includes pages for user registration, login, and user profile management, ensuring smooth onboarding and personalization. Furthermore, it introduces a dedicated kitchen staff dashboard and order panel, streamlining order management and enhancing operational efficiency.<br>
+Additionally, it incorporates a cart popup for quick access to order details and a filter popup to refine menu selections, ensuring a user-friendly interface that aligns with the app's core goals and enhances usability.
+
+### Wireframe - Mobile Version
+
+<details>
+<summary>Click here - Register Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/RegisterPage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Login Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/LoginPage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - User Profile Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/UserProfilePage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Payment Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/PaymentPage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Kitchen Staff Dashboard Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenStaffDashboard-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Kitchen Staff Order Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenStaff-OrderPanel-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Cart Popup Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/CartPopUP-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Filter Popup Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/FilterPopUp-3.png">
+</p>
+</details>
+
+### Wireframe - Tab Version
+
+<details>
+<summary>Click here - Register Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/RegitsterPage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Login Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/LoginPage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - User Profile Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/UserProfilePage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Payment Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/PaymentPage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Kitchen Staff Dashboard Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitckenStaffDashboard-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Kitchen Staff Order Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenStaff-OrderPanel-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Cart Popup Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/CartPopUp-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Filter Popup Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/FilterPopUp-2.png">
+</p>
+</details>
+
+### Wireframe - Desktop Version
+
+<details>
+<summary>Click here - Register Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/RegisterPage-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Login Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/LoginPage-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - User Profile Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/UserProfilePage-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Payment Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/PaymentPage-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Kitchen Staff Dashboard Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenSaffDashboard-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Kitchen Staff Order Panel Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenStaff-OrderPanel-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Cart Popup Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/CartPopUp-1.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Filter Popup Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/FilterPopUp-1.png">
 </p>
 </details>
 <br>
