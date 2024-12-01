@@ -521,10 +521,20 @@ When selecting fonts for our app, readability and modern appeal were top priorit
 - Open Sans
 - Lato
 
-### Wireframe - Mobile Version
+### Wireframe - Mobile View
 
 We initiated the design process for the app by focusing on the mobile version. Using Figma, we chose the "iPhone 13 mini" view to ensure accurate design alignment.
 Then devised the design for the mobile version as follows.
+
+### Wireframe - Tab View
+
+For the tablet view in Figma, used the "Android Expanded" frame to ensure the design adapts smoothly to larger screens. This choice allows for an optimized, responsive layout across tablet devices.
+
+### Wireframe - Desktop View
+
+In Figma, we used the desktop frame for the desktop view to design an interface customized for larger screens. This approach ensures a smooth, responsive experience for users across desktop devices.
+
+#### Home Page
 
 <details>
 <summary>Click here - Home Page Mobile View</summary>
@@ -534,55 +544,25 @@ Then devised the design for the mobile version as follows.
 </details>
 
 <details>
-<summary>Click here - Our Menu Page Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/MenuPage-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Contact Page Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/ContactPage-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/AdminDashboard-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Menu Panel Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-MenuPanel-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Order Panel Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-OrdersPanel-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Payment Panel Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-PaymentPanel-3.png">
-</p>
-</details>
-
-### Wireframe - Tab Version
-
-For the tablet view in Figma, used the "Android Expanded" frame to ensure the design adapts smoothly to larger screens. This choice allows for an optimized, responsive layout across tablet devices.
-
-<details>
 <summary>Click here - Home Page Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/HomePage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Home Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/HomePage-1.png">
+</p>
+</details>
+
+#### Our Menu Page
+
+<details>
+<summary>Click here - Our Menu Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/MenuPage-3.png">
 </p>
 </details>
 
@@ -594,55 +574,25 @@ For the tablet view in Figma, used the "Android Expanded" frame to ensure the de
 </details>
 
 <details>
-<summary>Click here - Contact Page Tab View</summary>
-<p align="center">
-<img src="docs/wireframes/ContactPage-2.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard Tab View</summary>
-<p align="center">
-<img src="docs/wireframes/AdminDashboard-2.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Menu Panel Tab View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-MenuPanel-2.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Order Panel Tab View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-OrdersPanel-2.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Payment Panel Tab View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-PaymentPanel-2.png">
-</p>
-</details>
-
-### Wireframe - Desktop Version
-
-In Figma, we used the desktop frame for the desktop view to design an interface customized for larger screens. This approach ensures a smooth, responsive experience for users across desktop devices.
-
-<details>
-<summary>Click here - Home Page Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/HomePage-1.png">
-</p>
-</details>
-
-<details>
 <summary>Click here - Our Menu Page Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/MenuPage-1.png">
+</p>
+</details>
+
+#### Contact Page
+
+<details>
+<summary>Click here - Contact Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/ContactPage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Contact Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/ContactPage-2.png">
 </p>
 </details>
 
@@ -653,41 +603,7 @@ In Figma, we used the desktop frame for the desktop view to design an interface 
 </p>
 </details>
 
-<details>
-<summary>Click here - Admin Dashboard Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/AdminDashboard-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Menu Panel Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-MenuPanel-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Order Panel Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-OrdersPanel-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Admin Dashboard - Payment Panel Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/Admin-PaymentsPanel-1.png">
-</p>
-</details>
-<br>
-
-### Wireframe - Version 3
-
-Wireframe Version 3 focuses on creating a seamless user experience by incorporating key features aligned with user stories. It includes pages for user registration, login, and user profile management, ensuring smooth onboarding and personalization. Furthermore, it introduces a dedicated kitchen staff dashboard and order panel, streamlining order management and enhancing operational efficiency.<br>
-Additionally, it incorporates a cart popup for quick access to order details and a filter popup to refine menu selections, ensuring a user-friendly interface that aligns with the app's core goals and enhances usability.
-
-### Wireframe - Mobile Version
+#### Register Page
 
 <details>
 <summary>Click here - Register Page Mobile View</summary>
@@ -697,60 +613,25 @@ Additionally, it incorporates a cart popup for quick access to order details and
 </details>
 
 <details>
-<summary>Click here - Login Page Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/LoginPage-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - User Profile Page Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/UserProfilePage-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Payment Page Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/PaymentPage-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Kitchen Staff Dashboard Page Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/KitchenStaffDashboard-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Kitchen Staff Order Panel Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/KitchenStaff-OrderPanel-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Cart Popup Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/CartPopUP-3.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Filter Popup Mobile View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/FilterPopUp-3.png">
-</p>
-</details>
-
-### Wireframe - Tab Version
-
-<details>
 <summary>Click here - Register Page Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/RegitsterPage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Register Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/RegisterPage-1.png">
+</p>
+</details>
+
+#### Login Page
+
+<details>
+<summary>Click here - Login Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/LoginPage-3.png">
 </p>
 </details>
 
@@ -762,6 +643,22 @@ Additionally, it incorporates a cart popup for quick access to order details and
 </details>
 
 <details>
+<summary>Click here - Login Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/LoginPage-1.png">
+</p>
+</details>
+
+#### User Profile Page
+
+<details>
+<summary>Click here - User Profile Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/UserProfilePage-3.png">
+</p>
+</details>
+
+<details>
 <summary>Click here - User Profile Page Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/UserProfilePage-2.png">
@@ -769,9 +666,110 @@ Additionally, it incorporates a cart popup for quick access to order details and
 </details>
 
 <details>
-<summary>Click here - Payment Page Tab View</summary>
+<summary>Click here - User Profile Page Desktop View</summary>
 <p align="center">
-<img src="docs/wireframes/version3/PaymentPage-2.png">
+<img src="docs/wireframes/version3/UserProfilePage-1.png">
+</p>
+</details>
+
+#### Admin Dashboard Page
+
+<details>
+<summary>Click here - Admin Dashboard Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/AdminDashboard-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/AdminDashboard-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/AdminDashboard-1.png">
+</p>
+</details>
+
+#### Admin Dashboard - Menu Manegment Panel Page
+
+<details>
+<summary>Click here - Admin Dashboard - Menu Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-MenuPanel-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Menu Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/Adnim-MenuPanel-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Menu Panel Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-MenuPanel-1.png">
+</p>
+</details>
+
+#### Admin Dashboard - Order Manegment Panel Page
+
+<details>
+<summary>Click here - Admin Dashboard - Order Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-OrderPanel-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Order Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-OrderPanel-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Order Panel Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-OrderPanel-1.png">
+</p>
+</details>
+
+#### Admin Dashboard - Payment Manegment Panel Page
+
+<details>
+<summary>Click here - Admin Dashboard - Payment Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-PaymentPanel-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Payment Panel Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-PaymentPanel-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Admin Dashboard - Payment Panel Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/Admin-PaymentPanel-1.png">
+</p>
+</details>
+
+#### Kitchen Staff Dashboard Page
+
+<details>
+<summary>Click here - Kitchen Staff Dashboard Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenStaffDashboard-3.png">
 </p>
 </details>
 
@@ -783,9 +781,64 @@ Additionally, it incorporates a cart popup for quick access to order details and
 </details>
 
 <details>
+<summary>Click here - Kitchen Staff Dashboard Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenSaffDashboard-1.png">
+</p>
+</details>
+
+#### Kitchen Staff Dashboard - Order Manegment Panel Page
+
+<details>
+<summary>Click here - Kitchen Staff Order Panel Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenStaff-OrderPanel-3.png">
+</p>
+</details>
+
+<details>
 <summary>Click here - Kitchen Staff Order Panel Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/KitchenStaff-OrderPanel-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Kitchen Staff Order Panel Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/KitchenStaff-OrderPanel-1.png">
+</p>
+</details>
+
+#### Payment Page
+
+<details>
+<summary>Click here - Payment Page Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/PaymentPage-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Payment Page Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/PaymentPage-2.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Payment Page Desktop View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/PaymentPage-1.png">
+</p>
+</details>
+
+#### Cart Popup Screen
+
+<details>
+<summary>Click here - Cart Popup Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/CartPopUP-3.png">
 </p>
 </details>
 
@@ -797,60 +850,25 @@ Additionally, it incorporates a cart popup for quick access to order details and
 </details>
 
 <details>
-<summary>Click here - Filter Popup Tab View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/FilterPopUp-2.png">
-</p>
-</details>
-
-### Wireframe - Desktop Version
-
-<details>
-<summary>Click here - Register Page Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/RegisterPage-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Login Page Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/LoginPage-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - User Profile Page Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/UserProfilePage-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Payment Page Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/PaymentPage-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Kitchen Staff Dashboard Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/KitchenSaffDashboard-1.png">
-</p>
-</details>
-
-<details>
-<summary>Click here - Kitchen Staff Order Panel Desktop View</summary>
-<p align="center">
-<img src="docs/wireframes/version3/KitchenStaff-OrderPanel-1.png">
-</p>
-</details>
-
-<details>
 <summary>Click here - Cart Popup Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/CartPopUp-1.png">
+</p>
+</details>
+
+#### Filter Popup Screen
+
+<details>
+<summary>Click here - Filter Popup Mobile View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/FilterPopUp-3.png">
+</p>
+</details>
+
+<details>
+<summary>Click here - Filter Popup Tab View</summary>
+<p align="center">
+<img src="docs/wireframes/version3/FilterPopUp-2.png">
 </p>
 </details>
 
