@@ -361,6 +361,7 @@ The following are the multiple versions:
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 2
+_Note: version 2 adds expands on user actions and introduces new actions including, but not limited to, removing items from the cart, specifying order quantities, and viewing food items that are sold out._
 
 ### Dynamic Digital Menu
 
@@ -431,33 +432,45 @@ The following are the multiple versions:
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 3
+_Note: In response to the feedback received from the group presentations, version 3 introduces more fleshed out sample personas to the user stories._
 
-Our BeanBuzz app supports three types of users:
+Our app supports 3 types of users:
 
-- Unauthenticated user (a user that is not logged in)
-- Authenticated user (a user that has a registered account and is logged in)
-- Admin (owner) or Staff User
+### 1. Persona - Unauthenticated user (a user that is not logged in)
 
-### Unauthenticated User
+James is a tourist from England who is visiting Sydney for 2 days. He wants to grab a cup of coffee from Bean Buzz while he walks around to see the local sites. Because James travels a lot, he does not want to have to register accounts and share his personal data to use services he will only use once. Furthermore, James has a credit card to make purchases. He often prefers to use cash while traveling.
+
+### 2. Persona - Authenticated user (a user that has a registered account and is logged in)
+
+Lisa is a local living in Sydney who visits Bean Buzz for a cup of coffee and breakfast every week. Because she visits the cafe frequently, she has registered an account to participate in the loyalty program and receive discounts. Sometimes, when she is in a rush, she needs to make an order online and pay for it prior to arriving at the cafe.
+
+### 3.  Persona - Owner, admin or staff user
+
+Priya is the owner / admin of Bean Buzz. Every few months, she likes to update her menu item to offer desserts that are trendy. Because certain food items are in high demand and sell out early, Priya will have to toggle certain food items as unavailable. At the end of the day, Priya also likes to check all the orders that were made for bookkeeping purposes. 
+
+Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instructions on orders to avoid having them sent back to the kitchen. Tony also needs to cancel orders if he discovers they do not have enough ingredients to make it or confirm orders once they are completed and ready to be picked up.
+
+
+### Unauthenticated User - User Story
 
 1. As an unauthenticated user, I want to access the application and view menu items without needing to log in, so I can explore the options available.
 2. As an unauthenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can find suitable food items easily.
 3. As an unauthenticated user, I want to order food online without logging in, but I understand that I won't have access to order status updates or the loyalty program.
-4. As an unauthenticated user, i want to be able to pay for my food online
-5. As an unauthenticated user, i want to be able to register an account so i can login to track my orders and participate in the loyalty program
-6. As an unauthenticated user, i want to be able to pay for my order online to save time.
-7. As an unauthenticated user, i want to be able to pay for my order in person so i can use cash.
+4. As an unauthenticated user, I want to be able to pay for my food online
+5. As an unauthenticated user, I want to be able to register an account so i can login to track my orders and participate in the loyalty program
+6. As an unauthenticated user, I want to be able to pay for my order online to save time.
+7. As an unauthenticated user, I want to be able to pay for my order in person so i can use cash.
 
-### Authenticated User
+### Authenticated User - User Story
 
-1. As a customer, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can order food online that suits my preferences.
-2. As a customer, I want to pay for my food online while heading to the cafe or restaurant so I can save time during pick-up or delivery.
-3. As a customer, I want to track the status of my orders (e.g., pending, preparing, completed) so I can stay updated.
-4. As a customer, I want to access a loyalty program so I can earn points with each order and redeem them for free food items.
-5. As a customer, i want to be able to pay for my order online to save time.
-6. As a customer, i want to be able to pay for my order in person so i can use cash.
+1. As an authenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can order food online that suits my preferences.
+2. As an authenticated user, I want to pay for my food online while heading to the cafe or restaurant so I can save time during pick-up or delivery.
+3. As an authenticated user, I want to track the status of my orders (e.g., pending, preparing, completed) so I can stay updated.
+4. As an authenticated user, I want to access a loyalty program so I can earn points with each order and redeem them for free food items.
+5. As an authenticated user, I want to be able to pay for my order online to save time.
+6. As an authenticated user, I want to be able to pay for my order in person so i can use cash.
 
-### Admin or Staff User
+### Admin or Staff User - User Story
 
 1. As an owner/admin, I want to log in to the app so I can manage the restaurant’s menu, orders, payments and overall operations.
 2. As a business owner/admin, I want to view the current menu items so I know what is being offered to customers.
