@@ -366,7 +366,7 @@ _Note: version 2 adds expands on user actions and introduces new actions includi
 
 #### User
 
-1. As a user, I want to view a digital menu so I can see all current food items. When doing so, i also want to know which food items are currently sold out so i do not order them.
+1. As a user, I want to view a digital menu so I can see all current food items. When doing so, I also want to know which food items are currently sold out so I do not order them.
 
 #### Customer
 
@@ -378,9 +378,9 @@ _Note: version 2 adds expands on user actions and introduces new actions includi
 
 1. As a customer, I want to be able to add food items to a cart so I can continue to browse the menu.
 
-2. As a customer, I want to be able to specify the quantity of food items I want to buy so i can order on behalf of everyone on my table.
+2. As a customer, I want to be able to specify the quantity of food items I want to buy so I can order on behalf of everyone on my table.
 
-3. As a customer, i want to be able to remove food items from my cart if I change my mind.
+3. As a customer, I want to be able to remove food items from my cart if I change my mind.
 
 ### Payment
 
@@ -456,9 +456,9 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 2. As an unauthenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can find suitable food items easily.
 3. As an unauthenticated user, I want to order food online without logging in, but I understand that I won't have access to order status updates or the loyalty program.
 4. As an unauthenticated user, I want to be able to pay for my food online
-5. As an unauthenticated user, I want to be able to register an account so i can login to track my orders and participate in the loyalty program
+5. As an unauthenticated user, I want to be able to register an account so I can login to track my orders and participate in the loyalty program
 6. As an unauthenticated user, I want to be able to pay for my order online to save time.
-7. As an unauthenticated user, I want to be able to pay for my order in person so i can use cash.
+7. As an unauthenticated user, I want to be able to pay for my order in person so I can use cash.
 
 ### Authenticated User - User Story
 
@@ -467,7 +467,7 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 3. As an authenticated user, I want to track the status of my orders (e.g., pending, completed or cancelled) so I can stay updated.
 4. As an authenticated user, I want to access a loyalty program so I can earn points with each order and redeem them for free food items.
 5. As an authenticated user, I want to be able to pay for my order online to save time.
-6. As an authenticated user, I want to be able to pay for my order in person so i can use cash.
+6. As an authenticated user, I want to be able to pay for my order in person so I can use cash.
 
 ### Admin or Staff User - User Story
 
