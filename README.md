@@ -271,9 +271,9 @@ Table data is synchronised with `Order Management` for assigning orders to table
 
 Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. External APIs are utilised for payment processing and map rendering. The following is a more detailed breakdown of the application architecture:
 
-1. The React.js app sends CRUD requests to the Express.js Server. 
+1. The React.js app sends CRUD requests to the Express.js Server.
 
-2. The Express.js Server processes these requests using the authentication, model and payment controllers. 
+2. The Express.js Server processes these requests using the authentication, model and payment controllers.
 
 3. The server queries the MongoDB database or creates new documents and adds them to the database.
 
@@ -281,7 +281,7 @@ Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js
 
 5. The server sends a response containing data back to the front-end.
 
-6. If the payment controller is utilised, it sends a payment object to the STRIPE payment API server and receives a success or failure status as a response. 
+6. If the payment controller is utilised, it sends a payment object to the STRIPE payment API server and receives a success or failure status as a response.
 
 7. If the Gmp-map component is rendered, it makes a GET request to the Google Maps API server and receives a response with map data.
 
@@ -289,7 +289,6 @@ Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js
 <summary>Click here - Application Architecture Diagram</summary>
 <img src="docs/architecture_diagram/ApplicationArchitectureDiagram.drawio-revised.png">
 </details>
-
 
 # R4 - User Stories
 
@@ -361,6 +360,7 @@ The following are the multiple versions:
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 2
+
 _Note: version 2 adds expands on user actions and introduces new actions including, but not limited to, removing items from the cart, specifying order quantities, and viewing food items that are sold out._
 
 ### Dynamic Digital Menu
@@ -432,6 +432,7 @@ _Note: version 2 adds expands on user actions and introduces new actions includi
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 3
+
 _Note: In response to the feedback received from the group presentations, version 3 introduces more fleshed out sample personas to the user stories._
 
 Our app supports 3 types of users:
@@ -444,12 +445,11 @@ James is a tourist from England who is visiting Sydney for 2 days. He wants to g
 
 Lisa is a local living in Sydney who visits Bean Buzz for a cup of coffee and breakfast every week. Because she visits the cafe frequently, she has registered an account to participate in the loyalty program and receive discounts. Sometimes, when she is in a rush, she needs to make an order online and pay for it prior to arriving at the cafe.
 
-### 3.  Persona - Owner, admin or staff user
+### 3. Persona - Owner, admin or staff user
 
-Priya is the owner / admin of Bean Buzz. Every few months, she likes to update her menu item to offer desserts that are trendy. Because certain food items are in high demand and sell out early, Priya will have to toggle certain food items as unavailable. At the end of the day, Priya also likes to check all the orders that were made for bookkeeping purposes. 
+Priya is the owner / admin of Bean Buzz. Every few months, she likes to update her menu item to offer desserts that are trendy. Because certain food items are in high demand and sell out early, Priya will have to toggle certain food items as unavailable. At the end of the day, Priya also likes to check all the orders that were made for bookkeeping purposes.
 
 Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instructions on orders to avoid having them sent back to the kitchen. Tony also needs to cancel orders if he discovers they do not have enough ingredients to make it or confirm orders once they are completed and ready to be picked up.
-
 
 ### Unauthenticated User - User Story
 
@@ -465,7 +465,7 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 
 1. As an authenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can order food online that suits my preferences.
 2. As an authenticated user, I want to pay for my food online while heading to the cafe or restaurant so I can save time during pick-up or delivery.
-3. As an authenticated user, I want to track the status of my orders (e.g., pending, preparing, completed) so I can stay updated.
+3. As an authenticated user, I want to track the status of my orders (e.g., pending, completed or cancelled) so I can stay updated.
 4. As an authenticated user, I want to access a loyalty program so I can earn points with each order and redeem them for free food items.
 5. As an authenticated user, I want to be able to pay for my order online to save time.
 6. As an authenticated user, I want to be able to pay for my order in person so i can use cash.
@@ -481,6 +481,65 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 7. As a business owner/admin, I want to change the status of orders (e.g., pending, completed, canceled) to manage and organize operations effectively.
 8. As kitchen staff, I want to view current orders along with any customer instructions so I can prepare the orders accurately.
 9. As kitchen staff, I want to mark orders as pending, completed, or canceled so I can communicate their status to the customers.
+
+## User Stories - Version 4
+_Note: The structure of the user stories have been changed so they're more closely connected to the sample personas created in version 3._
+
+Our app supports 3 types of users:
+
+### 1. Persona - Unauthenticated User (A User That Is Not Logged In)
+
+James is a vegan tourist from England who is visiting Sydney for 2 days. He wants to grab a dairy-free cup of coffee from Bean Buzz while he walks around to see the local sites. Because James travels a lot, he does not want to have to register accounts and share his personal data to use services he will only use once. Furthermore, James has a credit card to make purchases. He often prefers to use cash while traveling.
+
+#### User Stories
+
+1. As an unauthenticated user, James wants to access the application and view menu items without needing to log in, so he can explore the options available without having to share personal information with the application.
+2. As an unauthenticated user, James wants to filter food items based on his dietary requirement (vegan) so he can find suitable food items easily.
+3. As an unauthenticated user, James wants to order food online without logging in, but he understands that he won't have access to order tracking or the loyalty program.
+4. As an unauthenticated user, James wants to be able to pay for his food online using a credit card if he does not have cash on him.
+5. As an unauthenticated user, James wants to be able to pay for his orders in person so he can use cash if he has enough on him.
+6. As an unauthenticated user, James wants to be able to register an account if he wants to access features available to authenticated users such as order tracking and the loyalty program. 
+
+### 2. Persona - Authenticated User (A User That Has A Registered Account And Is Logged In)
+
+Lisa is a local living in Sydney who visits Bean Buzz for a cup of coffee and breakfast every week. Because she visits the cafe frequently, she has registered an account to participate in the loyalty program and receive discounts. Sometimes, when she is in a rush, she needs to make an order online and pay for it prior to arriving at the cafe. Furthermore, Lisa also has Celiac disease and needs to ensure the dishes she orders are gluten-free.
+
+#### User Stories
+
+1. As an authenticated user, Lisa wants to filter food items based on her dietary requirements (gluten-free) so she can order food online that is safe for her to eat.
+2. As an authenticated user, Lisa wants to be able to pay for her food online while heading to the cafe so she can save time.
+3. As an authenticated user, Lisa wants to be able to pay for her order online while dining-in to save time.
+4. As an authenticated user, Lisa wants to be able to pay for her order in person so that she can use cash.
+5. As an authenticated user, Lisa want to track the status of her orders (e.g., pending, preparing and completed) so she can stay updated and know when to pick it up.
+6. As an authenticated user, Lisa wants to access a loyalty program so she can earn points with each order and redeem them for free food items.
+7. As an authenticated user, Lisa wants to be able to give feedback to the restaurant by writing a review in order to help them improve their service.
+8. As an authenticated user, Lisa wants to be able to change her user profile details such as email and online payment method so they can stay up-to-date.
+
+
+### 3. Persona - Owner or Admin
+
+Priya is the owner/admin of Bean Buzz. Every few months, she likes to update her menu item to offer desserts that are trendy. Because certain food items are in high demand and sell out early, Priya will have to toggle certain food items as unavailable. At the end of the day, Priya also likes to check all the orders that were made for bookkeeping purposes.
+
+
+#### User Stories
+
+1. As an business owner/admin, Priya wants to log in to the app so she can manage the cafe's menu, orders, payments and overall operations.
+2. As a business owner/admin, Priya wants to view the current menu items so she knows what is being offered to customers.
+3. As a business owner/admin, Priya wants to update menu items (e.g., prices, image or descriptions) so the menu remains accurate and up-to-date.
+4. As a business owner/admin, Priya wants to create new menu items so the cafe can periodically offer new dishes to customers.
+5. As a business owner/admin, Priya wants to toggle the availability of menu items on the digital menu so it can reflect real-time availability, preventing customer disappointment and saving staff time.
+6. As a business owner/admin, Priya wants to track all orders (past and present) so she can maintain up-to-date business records and analyze order trends.
+7. As a business owner/admin, Priya wants to change the status of orders (e.g., pending, completed, canceled) to manage and organize operations effectively.
+
+### 4. Persona - Staff
+
+Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instructions on orders to avoid having them sent back to the kitchen. Tony also needs to cancel orders if he discovers they do not have enough ingredients to make it or confirm orders once they are completed and ready to be picked up.
+
+#### User stories
+
+1. As kitchen staff, Tony wants to view current orders along with any customer instructions so he can prepare the orders accurately.
+2. As kitchen staff, Tony wants to mark orders as pending, completed, or canceled so he can communicate their status to the customers and other staff.
+
 
 # R5 - Wireframes for multiple standard screen sizes.
 
