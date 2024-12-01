@@ -432,7 +432,7 @@ _Note: version 2 adds expands on user actions and introduces new actions includi
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 3
-_Note: In response to the feedback from group presentations, version 3 introduces more fleshed out sample personas to the user stories._
+_Note: In response to the feedback received from the group presentations, version 3 introduces more fleshed out sample personas to the user stories._
 
 Our app supports 3 types of users:
 
