@@ -263,13 +263,12 @@ Table data is synchronised with `Order Management` for assigning orders to table
 </p>
 
 </details>
-<br>
 
 # R3 - Application Architecture Diagram
 
 ### Overview
 
-Our application utilizes a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. External APIs are utilised for payment processing and map rendering. The following is a more detailed breakdown of the application architecture:
+Our application utilises a MERN stack, featuring a React.js front-end, a Node.js and Express.js server, and a MongoDB database. External APIs are utilised for payment processing and map rendering. The following is a more detailed breakdown of the application architecture:
 
 1. The React.js app sends CRUD requests to the Express.js Server.
 
@@ -477,12 +476,13 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 3. As a business owner/admin, I want to update menu items (e.g., prices, image or descriptions) so the menu remains accurate and up-to-date.
 4. As a business owner/admin, I want to create new menu items so our restaurant can periodically offer new dishes to customers.
 5. As a business owner/admin, I want to toggle the availability of menu items on the digital menu so I can reflect real-time stock levels, preventing customer disappointment and saving staff time.
-6. As a business owner/admin, I want to track all orders (past and present) so I can maintain up-to-date business records and analyze order trends.
-7. As a business owner/admin, I want to change the status of orders (e.g., pending, completed, canceled) to manage and organize operations effectively.
+6. As a business owner/admin, I want to track all orders (past and present) so I can maintain up-to-date business records and analyse order trends.
+7. As a business owner/admin, I want to change the status of orders (e.g., pending, completed, canceled) to manage and organise operations effectively.
 8. As kitchen staff, I want to view current orders along with any customer instructions so I can prepare the orders accurately.
 9. As kitchen staff, I want to mark orders as pending, completed, or canceled so I can communicate their status to the customers.
 
 ## User Stories - Version 4
+
 _Note: The structure of the user stories have been changed so they're more closely connected to the sample personas created in version 3._
 
 Our app supports 3 types of users:
@@ -498,7 +498,7 @@ James is a vegan tourist from England who is visiting Sydney for 2 days. He want
 3. As an unauthenticated user, James wants to order food online without logging in, but he understands that he won't have access to order tracking or the loyalty program.
 4. As an unauthenticated user, James wants to be able to pay for his food online using a credit card if he does not have cash on him.
 5. As an unauthenticated user, James wants to be able to pay for his orders in person so he can use cash if he has enough on him.
-6. As an unauthenticated user, James wants to be able to register an account if he wants to access features available to authenticated users such as order tracking and the loyalty program. 
+6. As an unauthenticated user, James wants to be able to register an account if he wants to access features available to authenticated users such as order tracking and the loyalty program.
 
 ### 2. Persona - Authenticated User (A User That Has A Registered Account And Is Logged In)
 
@@ -515,11 +515,9 @@ Lisa is a local living in Sydney who visits Bean Buzz for a cup of coffee and br
 7. As an authenticated user, Lisa wants to be able to give feedback to the restaurant by writing a review in order to help them improve their service.
 8. As an authenticated user, Lisa wants to be able to change her user profile details such as email and online payment method so they can stay up-to-date.
 
-
 ### 3. Persona - Owner or Admin
 
 Priya is the owner/admin of Bean Buzz. Every few months, she likes to update her menu item to offer desserts that are trendy. Because certain food items are in high demand and sell out early, Priya will have to toggle certain food items as unavailable. At the end of the day, Priya also likes to check all the orders that were made for bookkeeping purposes.
-
 
 #### User Stories
 
@@ -528,8 +526,8 @@ Priya is the owner/admin of Bean Buzz. Every few months, she likes to update her
 3. As a business owner/admin, Priya wants to update menu items (e.g., prices, image or descriptions) so the menu remains accurate and up-to-date.
 4. As a business owner/admin, Priya wants to create new menu items so the cafe can periodically offer new dishes to customers.
 5. As a business owner/admin, Priya wants to toggle the availability of menu items on the digital menu so it can reflect real-time availability, preventing customer disappointment and saving staff time.
-6. As a business owner/admin, Priya wants to track all orders (past and present) so she can maintain up-to-date business records and analyze order trends.
-7. As a business owner/admin, Priya wants to change the status of orders (e.g., pending, completed, canceled) to manage and organize operations effectively.
+6. As a business owner/admin, Priya wants to track all orders (past and present) so she can maintain up-to-date business records and analyse order trends.
+7. As a business owner/admin, Priya wants to change the status of orders (e.g., pending, completed, canceled) to manage and organise operations effectively.
 
 ### 4. Persona - Staff
 
@@ -540,14 +538,13 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 1. As kitchen staff, Tony wants to view current orders along with any customer instructions so he can prepare the orders accurately.
 2. As kitchen staff, Tony wants to mark orders as pending, completed, or canceled so he can communicate their status to the customers and other staff.
 
-
-# R5 - Wireframes for multiple standard screen sizes.
+# R5 - Wireframes for multiple standard screen sizes
 
 [Figma Wireframe Link](https://www.figma.com/design/opDtX5ia73tgRQuhVsJ3fT/Been-Buzz-Cafe-Wireframes?node-id=0-1&t=TIgoX4YxbvIukJd8-1)
 
 ### Overview
 
-Designed high-fidelity wireframes for multiple standard screen sizes using Figma, the industry-standard design tool. These wireframes ensure a responsive and user-friendly layout across devices such as desktops, tablets, and mobile screens. That hepls reflecting the app's final design and functionality. Figma's collaborative features allowed our team to iterate and refine the designs efficiently, aligning with best practices for modern UI/UX development.
+Designed high-fidelity wireframes for multiple standard screen sizes using Figma, the industry-standard design tool. These wireframes ensure a responsive and user-friendly layout across devices such as desktops, tablets, and mobile screens. That helps reflecting the app's final design and functionality. Figma's collaborative features allowed our team to iterate and refine the designs efficiently, aligning with best practices for modern UI/UX development.
 
 ### Colour Selection
 
@@ -580,359 +577,487 @@ When selecting fonts for our app, readability and modern appeal were top priorit
 - Open Sans
 - Lato
 
-### Wireframe - Mobile View
+### Mobile View
 
 We initiated the design process for the app by focusing on the mobile version. Using Figma, we chose the "iPhone 13 mini" view to ensure accurate design alignment.
 Then devised the design for the mobile version as follows.
 
-### Wireframe - Tab View
+### Tablet View
 
-For the tablet view in Figma, used the "Android Expanded" frame to ensure the design adapts smoothly to larger screens. This choice allows for an optimized, responsive layout across tablet devices.
+For the tablet view in Figma, used the "Android Expanded" frame to ensure the design adapts smoothly to larger screens. This choice allows for an optimised, responsive layout across tablet devices.
 
-### Wireframe - Desktop View
+### Desktop View
 
-In Figma, we used the desktop frame for the desktop view to design an interface customized for larger screens. This approach ensures a smooth, responsive experience for users across desktop devices.
+In Figma, we used the desktop frame for the desktop view to design an interface customised for larger screens. This approach ensures a smooth, responsive experience for users across desktop devices.
 
-#### Home Page
+## Pages
+
+### Home Page
+
+The page highlights featured items, customer reviews, and information banners. Navigation links and business information are consistently placed for accessibility.
+
+Encourages users to explore the menu, learn about the cafe, and follow the business on social media. Clear navigation buttons guide users to other sections.
+
+The home page serves as the central hub, connecting to all major sections like the menu, contact, and user account pages.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Home Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/HomePage-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Home Page Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/HomePage-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Home Page Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/HomePage-1.png">
 </p>
 </details>
 
-#### Our Menu Page
+### Our Menu Page
+
+Menu items are categorised and displayed with accompanying images and descriptions. Filters and category tabs enhance content organisation.
+
+Users can browse, filter, and order items directly from the page. "Order Now" buttons are clearly placed for quick interaction.
+
+The menu page links to the cart, filters, and order details, ensuring a seamless browsing and ordering experience.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Our Menu Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/MenuPage-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Our Menu Page Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/MenuPage-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Our Menu Page Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/MenuPage-1.png">
 </p>
 </details>
 
-#### Contact Page
+### Contact Page
+
+The page splits content into a contact form and a map for location details. Additional contact options (phone and email) are displayed prominently below the form.
+
+Encourages users to reach out via the form or provided contact methods. The clear design reduces barriers to communication.
+
+Links to the home and menu pages, ensuring easy navigation for users needing support or inquiries.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Contact Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/ContactPage-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Contact Page Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/ContactPage-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Contact Page Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/ContactPage-1.png">
 </p>
 </details>
 
-#### Register Page
+### Register Page
+
+Fields for personal details like name, email, and phone number are well spaced and intuitive, ensuring a smooth registration process.
+
+Encourages new user registration with a prominent "Register Now" button. The focus is on simplicity and ease of use.
+
+Directly connects to the login page and user account dashboards, ensuring a seamless confirmation.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Register Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/RegisterPage-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Register Page Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/RegitsterPage-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Register Page Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/RegisterPage-1.png">
 </p>
 </details>
 
-#### Login Page
+### Login Page
+
+The login form is centered on the page with clear fields for email and password. There's also a "Create an Account" button for new users.
+
+It encourages users to sign in while providing an easy option to create a new account. The simple layout keeps the login process straightforward and user friendly.
+
+The form links directly to the registration page and personalised user dashboards, ensuring a smooth and seamless onboarding experience.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Login Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/LoginPage-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Login Page Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/LoginPage-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Login Page Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/LoginPage-1.png">
 </p>
 </details>
 
-#### User Profile Page
+### User Profile Page
+
+The profile page is organised into sections for account details, user reviews, rewards, and current order details. Each section is visually separated for clarity, ensuring users can focus on specific tasks, like updating personal information or checking their rewards balance. Labels and expandable panels enhance content organisation.
+
+Users can update their profile information, submit reviews and feedback, check their loyalty rewards balance, and view or proceed with their current order. "Save Changes," "Submit Review," and "Redeem My Rewards" buttons ensure smooth interaction for each functionality.
+
+The profile page connects seamlessly to the loyalty program, order details, and feedback system. It integrates with the menu and checkout pages, allowing the user to manage personal information, orders, and rewards.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - User Profile Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/UserProfilePage-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - User Profile Page Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/UserProfilePage-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - User Profile Page Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/UserProfilePage-1.png">
 </p>
 </details>
 
-#### Admin Dashboard Page
+### Admin Dashboard Page
+
+The panel is organised into tabs for easy navigation: Home, Menu Items, Orders, and Payments. Order details are clearly displayed in a table, highlighting key information for quick access.
+
+Admins can easily view, update, and manage orders and payments, with full control over the system.
+
+It also integrates seamlessly with kitchen staff dashboards and the customer ordering system, ensuring that all updates are synchronised in real-time.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Admin Dashboard Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/AdminDashboard-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/AdminDashboard-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/AdminDashboard-1.png">
 </p>
 </details>
 
-#### Admin Dashboard - Menu Manegment Panel Page
+### Admin Dashboard - Menu Management Panel Page
+
+The panel displays menu items in a table layout, showing key details like name, price, size, type, and images. The "Add Item" button is easily accessible for quick updates. Action buttons for "Edit" and "Delete" allow management of individual items.
+
+Admins can add new menu items, modify existing ones, or remove outdated entries. The table simplifies managing details like pricing, categorisation, and images. These functions help keep the menu up to date with ease.
+
+This panel is connected to the customer menu and order sections, ensuring that any changes made are reflected across the system. It also integrates with the payments and order panels to maintain consistency in pricing and availability.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Admin Dashboard - Menu Panel Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-MenuPanel-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard - Menu Panel Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/Adnim-MenuPanel-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard - Menu Panel Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-MenuPanel-1.png">
 </p>
 </details>
 
-#### Admin Dashboard - Order Manegment Panel Page
+### Admin Dashboard - Order Management Panel Page
+
+This presents key order details such as order codes, items, quantity, table numbers, order time, completed time, actions, and cost in a clean, easy to read format. The sidebar allows for quick navigation between home, menu items, orders, and payments.
+
+Admins can update order statuses to "Complete" and track orders in real time. The table enables verification of order details, ensuring accuracy in operations. The design streamlines order management with quick and easy updates.
+
+This panel integrates with the kitchen staff dashboard, payments section, and the customer ordering system. Updates made here are reflected across all related screens in real time, ensuring smooth communication between admins, staff, and customers.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Admin Dashboard - Order Panel Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-OrderPanel-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard - Order Panel Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-OrderPanel-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard - Order Panel Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-OrderPanel-1.png">
 </p>
 </details>
 
-#### Admin Dashboard - Payment Manegment Panel Page
+### Admin Dashboard - Payment Management Panel Page
+
+The view neatly organises important payment details like order codes, items, quantities, order times, payment methods, discounts, and totals, making them easy to review. A sidebar provides quick links to other admin sections, such as home, menu items, and orders. Its clean design ensures admins can focus on key financial information without distractions.
+
+Admins can easily review payments, verify transactions, and track payment methods, including cash and credit cards (via Stripe). The panel simplifies financial management by clearly displaying discounts and order totals, ensuring transactions are tracked accurately.
+
+This panel integrates seamlessly with the orders dashboard and the admin system. Payment data is automatically linked to order details, keeping everything consistently updated. It supports smooth navigation and reliable bookkeeping, making financial oversight straightforward.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Admin Dashboard - Payment Panel Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-PaymentPanel-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard - Payment Panel Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-PaymentPanel-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Admin Dashboard - Payment Panel Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/Admin-PaymentPanel-1.png">
 </p>
 </details>
 
-#### Kitchen Staff Dashboard Page
+### Kitchen Staff Dashboard Page
+
+The dashboard is designed for simplicity, featuring a sidebar that provides easy access to Home and Orders. The main area is open and welcoming, allowing space to display order details or other updates. This clean layout helps staff stay focused and avoid distractions.
+
+Staff can easily switch between the main dashboard and the orders section. This setup makes it quick and simple to view and update orders. The user friendly interface streamlines daily tasks.
+
+The dashboard connects directly to the orders panel, where staff can manage and track order progress. It seamlessly integrates with both the admin and user systems, ensuring that updates are reflected in real time across the platform.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Kitchen Staff Dashboard Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/KitchenStaffDashboard-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Kitchen Staff Dashboard Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/KitckenStaffDashboard-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Kitchen Staff Dashboard Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/KitchenSaffDashboard-1.png">
 </p>
 </details>
 
-#### Kitchen Staff Dashboard - Order Manegment Panel Page
+### Kitchen Staff Dashboard - Order Management Panel Page
+
+The orders panel uses a table format to display order details such as order codes, items, quantities, table number, order time and statuses.
+The "Complete" and "Pending" statuses are clearly highlighted for easy tracking.
+This layout helps staff focus on managing active orders with ease.
+
+Kitchen staff can quickly view and update order statuses in real time.
+The "Complete" status allows the staff user to view quick updates, ensuring accurate progress tracking.
+This panel streamlines order processing, making it easy to manage and track each order.
+
+The panel connects to the admin orders dashboard and the customer order tracking system.
+Real time updates ensure seamless synchronisation across all platforms.
+This integration keeps kitchen operations, admin views, and customer expectations aligned.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Kitchen Staff Order Panel Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/KitchenStaff-OrderPanel-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Kitchen Staff Order Panel Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/KitchenStaff-OrderPanel-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Kitchen Staff Order Panel Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/KitchenStaff-OrderPanel-1.png">
 </p>
 </details>
 
-#### Payment Page
+### Payment Page
+
+The payment form is simple and straightforward, featuring only the essential fields: card details, cardholder name, expiry date, and CVC. The "Pay" button is easy to find for quick access.
+
+Users can securely enter their payment information to complete the transaction, making the checkout process fast and easy.
+
+It seamlessly integrates with the cart and order confirmation pages, serving as the final step in completing a purchase.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Payment Page Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/PaymentPage-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Payment Page Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/PaymentPage-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Payment Page Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/PaymentPage-1.png">
 </p>
 </details>
 
-#### Cart Popup Screen
+### Cart Popup Screen
+
+The popup uses a centered modal window to draw attention to the key items, clearly listing the products, quantities, and prices. The subtotal and "Checkout" button are placed at the bottom for easy access.
+
+Users can easily update item quantities or remove products from the cart. The "Checkout" button acts as a clear call to action, guiding users toward completing their purchase.
+
+This popup is connected to the menu and integrates smoothly with the payment and checkout process, ensuring a seamless flow from product selection to final purchase.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Cart Popup Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/CartPopUP-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Cart Popup Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/CartPopUp-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Cart Popup Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/CartPopUp-1.png">
 </p>
 </details>
 
-#### Filter Popup Screen
+### Filter Popup Screen
+
+The filter sidebar is located on the left for easy access and visibility. It offers a range of filter options, like dietary preferences, organised in a way that makes navigation simple.
+
+Users can easily apply or clear filters to narrow down their menu search. The "Apply" and "Clear All" buttons are straightforward, allowing for quick adjustments.
+
+The filter panel directly updates the menu display, providing a dynamic and personalised experience as users refine their search.
+
+> <i>Click to view below</i>
 
 <details>
-<summary>Click here - Filter Popup Mobile View</summary>
+<summary>Mobile View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/FilterPopUp-3.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Filter Popup Tab View</summary>
+<summary>Tab View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/FilterPopUp-2.png">
 </p>
 </details>
 
 <details>
-<summary>Click here - Filter Popup Desktop View</summary>
+<summary>Desktop View</summary>
 <p align="center">
 <img src="docs/wireframes/version3/FilterPopUp-1.png">
 </p>
