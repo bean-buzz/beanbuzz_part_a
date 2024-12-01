@@ -1,4 +1,11 @@
+# Group Information
+   - Chalani Dissanayaka
+   - Rahul Dayal
+   - Jason Parkin
+
 # R1 - Description of Website
+
+> Description of your website, including: Purpose, Functionality / features, Target audience and Tech stack
 
 ## Purpose
 
@@ -540,6 +547,8 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 
 # R5 - Wireframes for multiple standard screen sizes
 
+> Wireframes for multiple standard screen sizes, created using industry standard software
+
 [Figma Wireframe Link](https://www.figma.com/design/opDtX5ia73tgRQuhVsJ3fT/Been-Buzz-Cafe-Wireframes?node-id=0-1&t=TIgoX4YxbvIukJd8-1)
 
 ### Overview
@@ -1065,6 +1074,8 @@ The filter panel directly updates the menu display, providing a dynamic and pers
 <br>
 
 # R6 - Task Allocation and Tracking
+
+>     Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
 
 ### Overview
 
