@@ -1,7 +1,8 @@
 # Group Information
-   - Chalani Dissanayaka
-   - Rahul Dayal
-   - Jason Parkin
+
+- Chalani Dissanayaka
+- Rahul Dayal
+- Jason Parkin
 
 # R1 - Description of Website
 
@@ -1075,7 +1076,7 @@ The filter panel directly updates the menu display, providing a dynamic and pers
 
 # R6 - Task Allocation and Tracking
 
->     Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
+> Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
 
 ### Overview
 
