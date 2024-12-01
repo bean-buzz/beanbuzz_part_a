@@ -432,7 +432,7 @@ _Note: version 2 adds expands on user actions and introduces new actions includi
 1. As a business owner, I want to be able to provide an incentive for my customers to visit and order food regularly.
 
 ## User Stories - Version 3
-_Note: version 3 introduces more fleshed out sample personas to the user stories._
+_Note: In response to the feedback from group presentations, version 3 introduces more fleshed out sample personas to the user stories._
 
 Our app supports 3 types of users:
 
@@ -456,19 +456,19 @@ Tony works as a chef in the kitchen of Bean Buzz. Tony frequently checks instruc
 1. As an unauthenticated user, I want to access the application and view menu items without needing to log in, so I can explore the options available.
 2. As an unauthenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can find suitable food items easily.
 3. As an unauthenticated user, I want to order food online without logging in, but I understand that I won't have access to order status updates or the loyalty program.
-4. As an unauthenticated user, i want to be able to pay for my food online
-5. As an unauthenticated user, i want to be able to register an account so i can login to track my orders and participate in the loyalty program
-6. As an unauthenticated user, i want to be able to pay for my order online to save time.
-7. As an unauthenticated user, i want to be able to pay for my order in person so i can use cash.
+4. As an unauthenticated user, I want to be able to pay for my food online
+5. As an unauthenticated user, I want to be able to register an account so i can login to track my orders and participate in the loyalty program
+6. As an unauthenticated user, I want to be able to pay for my order online to save time.
+7. As an unauthenticated user, I want to be able to pay for my order in person so i can use cash.
 
 ### Authenticated User - User Story
 
-1. As am authenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can order food online that suits my preferences.
+1. As an authenticated user, I want to filter food items based on my dietary requirements (e.g., vegan or gluten-free) so I can order food online that suits my preferences.
 2. As an authenticated user, I want to pay for my food online while heading to the cafe or restaurant so I can save time during pick-up or delivery.
 3. As an authenticated user, I want to track the status of my orders (e.g., pending, preparing, completed) so I can stay updated.
 4. As an authenticated user, I want to access a loyalty program so I can earn points with each order and redeem them for free food items.
-5. As an authenticated user, i want to be able to pay for my order online to save time.
-6. As an authenticated user, i want to be able to pay for my order in person so i can use cash.
+5. As an authenticated user, I want to be able to pay for my order online to save time.
+6. As an authenticated user, I want to be able to pay for my order in person so i can use cash.
 
 ### Admin or Staff User - User Story
 
